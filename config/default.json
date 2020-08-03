@@ -1,0 +1,3 @@
+{
+    "mongoURI":"mongodb+srv://buigun-123:buigun-123@devconnector.tonje.mongodb.net/devConnectorDB?retryWrites=true&w=majority"
+}

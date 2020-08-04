@@ -2,9 +2,13 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const connectDB = require("./config/db");
+const { urlencoded } = require("express");
 
 /// Connect Database
 connectDB();
+
+app.use(express.json());
+app.use(urlencoded({extended: true}));
 
 app.get("/",(req,res) => {
     res.send("API is running");

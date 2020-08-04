@@ -1,4 +1,6 @@
 {
     "mongoURI":"mongodb+srv://buigun-123:buigun-123@devconnector.tonje.mongodb.net/devConnectorDB?retryWrites=true&w=majority",
-    "jwtSecret":"ThisIsMyLitleSecret."
+    "jwtSecret":"ThisIsMyLitleSecret.",
+    "githubClientID":"8ca840e5de87dd21ad3d",
+    "githubClientSecret":"8c7d5714c308c6e76bf7835fe3801c00bae69f21"
 }
